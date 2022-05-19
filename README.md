@@ -12,7 +12,6 @@ npm install discord.js
 
 yazmanız gerekmektedir. Kurulum yapılan dosyaya githubda ki dosyaları atıp çalıştırabilirsiniz.
 
-
 # Mevcut Özellikleri
 
 -Poly Özelliği.
