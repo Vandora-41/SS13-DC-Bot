@@ -1,0 +1,16 @@
+İstasyona yeni gelen insanları öldürmemek yazılı olmayan bir kuraldır.
+Borg oynarken emaglenirseniz, sizi emagleyen kişiye hizmet etmek zorundasınız.
+Rest modundayken karşı taraf size combat modu kapalıyken ateş ederse mermileri size değmeyecektir.
+Eğer murderbone izni sahip olmayan bir antag oynuyorsanız ve ortalık içinde işinizi görüyorsanız, yakalandığınızda bu size kendinizi kurtarmak icin murderbone hakkı vermez.
+Eğer Nanotrasen ajanıysanız kimliğinizi hiç bir türlü açığa çıkaramazsınız. Yakalanma riski olduğunda kendinizi explosive implantınız ile imha edebilirsiniz.
+Kasıtlı olarak cult ve rev e katılamazsınız. Yakalanması durumunda bu antaglardan kalıcı olarak yasaklanırsınız.
+Nt agent iken kimliğinizi kesinlikle açığa çıkaramazsınız. En kötü ihtimalde kendinizi implantınız ile patlatmak zorundasınız.
+Botanik Podman (bitki insan) yetiştirebilir. Ölü bireyin kanı alınıp podman tohum paketine enjekte edilmeli, ondan sonra ekilmelidir. Yetiştiğinde ölü birey hala ölü ise, elde edilen hasat bir podman olacaktır, ölü bireyin ruhuna sahip olur ama hiç bir şey hatırlamaz, sadece yaptığı mesleği hatırlar.
+Tuvaletlere eşya saklanılabilir. Levye ile üstünü açın, dilediğiniz eşyayı koyun ve levye ile tuvaleti tekrar kapatın. Dikkat edin bu işlem çok ses çıkartır.
+Güvenlik memuruysanız, donut yemek sizi bir miktar iyileştirir. Donut türüne göre bu miktar artar.
+Personel şefiyseniz kargodan corgi crate sipariş edin. Şanslıysanız kutudan Lisa adlı corgi çıkartacaksınız. Ian ile Lisa'yı çiftleştirip, küçük yavru köpekler elde edebilirsiniz.
+Duvara Thermite kimyasalı döküp duvarı yakarsanız duvar yok olacaktır.
+Barmen'in bazı içecekleri gerçek anlamda şifadır. *Quadruple Sec* güvenlikleri, *Cuba Libre* devrimcileri, *Narsour* tarikatçıları ve *Banana Honk* palyaçoları iyileştirir. *Doctor's Delight* ise doktorlar hariç herkesi iyileştirir, doktorken içerseniz açlık hissedersiniz.
+Warden bekçidir. Warden oynarken Brig dışına çıkmamalısınız.
+Illegal olmasına rağmen *Lifeweed*, *Omnizine* içerir. *Omnizine*, her türlü hasarı iyileştirebilen sihirli bir kimyasaldır. Mikrodalgalarda ısıtılmış *Donk Pocket*lar da *Omnizine* içerir.
+Eğer en az bir yazılım dili biliyorsanız circuitleri kolayca çözebilirsiniz.
