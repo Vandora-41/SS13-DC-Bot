@@ -1,7 +1,6 @@
 const Discord = require("discord.js")
 var http = require('http');
 var fs = require('fs');
-const json = require("C:/lastg/data/playerMinutes.json")
 const { parse } = require("path");
 
 const client = new Discord.Client({
@@ -32,6 +31,7 @@ client.on('message', message => {
       
     } if ((message.content.startsWith(prefix + 'kac'))) {
       if (message.author.bot) return;
+      const json = require("C:/lastg/data/playerMinutes.json")
       const SayMessage = message.content.slice(4).trim();
       if(!json[SayMessage]){
 
