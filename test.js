@@ -31,7 +31,7 @@ client.on('message', message => {
       
     } if ((message.content.startsWith(prefix + 'kac'))) {
       if (message.author.bot) return;
-      const json = require("C:/lastg/data/playerMinutes.json")
+      var json = JSON.parse(fs.readFileSync("C:/lastg/data/playerMinutes.json", "utf-8"))
       const SayMessage = message.content.slice(4).trim();
       if(!json[SayMessage]){
 
