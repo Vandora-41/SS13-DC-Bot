@@ -38,8 +38,9 @@ client.on('message', message => {
         message.reply(SayMessage + " Adında bir oyuncu bulunamadı.")
       }
       else{
-        var b =json[SayMessage]/60;
-      message.reply(SayMessage + " Adlı kişinin oynama süresi: "+b.toString()+ " Saat " + (b % 60).toString() + " Dakika");
+        var b =Math.floor(json[SayMessage]/60);
+        var c =json[SayMessage]%60;
+      message.reply(SayMessage + " Adlı kişinin oynama süresi: "+b.toString()+ " Saat " + c.toString() + " Dakika");
       }
     }
     if ((message.content.startsWith(prefix + 'saat'))) {
