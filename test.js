@@ -39,7 +39,7 @@ client.on('message', message => {
       }
       else{
         var b =json[SayMessage]/60;
-      message.reply(SayMessage + " Adlı kişinin oynama süresi: "+b.toString()+ " Saat");
+      message.reply(SayMessage + " Adlı kişinin oynama süresi: "+b.toString()+ " Saat " + (b % 60).toString() + " Dakika");
       }
     }
     if ((message.content.startsWith(prefix + 'saat'))) {
@@ -48,7 +48,7 @@ client.on('message', message => {
       fs.readFile('C:/lastg/data/playerMinutes.json', function(err, data) {
         if(err) throw err;
         const parsed = JSON.parse(data);
-        const top10 = Object.entries(parsed ).sort(([, a], [, b]) => b - a).map(([key,val]) => [key +": "+val / 60 +" Saat"]);
+        const top10 = Object.entries(parsed ).sort(([, a], [, b]) => b - a).map(([key,val]) => [key +": "+Math.floor(val / 60) +" Saat " + (val%60) + " Dakika"]);
        client.channels.fetch('941689961479036988').then(channel => {
         for (let index = 0; index <20; index++) {
           var says =says+" "+top10[index] + "\n"
