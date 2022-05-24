@@ -11,7 +11,7 @@ const client = new Discord.Client({
 const prefix ='!'
 client.on('message', message => {
 
-    if ((message.content.startsWith(prefix + 'say')&& message.author.id ==`289873346504556544`) ) {
+    if ((message.content.startsWith(prefix + 'say')&& message.author.id ==`289873346504556544`) ) {  //genel chate yazı yazıyor.
         if (message.author.bot) return;
         const SayMessage = message.content.slice(4).trim();
     
@@ -19,6 +19,7 @@ client.on('message', message => {
           channel.send(SayMessage);
         });  
     }
+    //tip ekliyor
     if ((message.content.startsWith(prefix + 'tip')&& message.author.id ==`140168024433885184`) ||(message.content.startsWith(prefix + 'tip')&& message.author.id ==`272434960814571520`)||(message.content.startsWith(prefix + 'tip')&& message.author.id ==`289873346504556544`)) {
         if (message.author.bot) return;
         const SayMessage = message.content.slice(4).trim();
@@ -28,7 +29,7 @@ client.on('message', message => {
           }
           message.reply("Tip Başarıyla Eklendi")
       });
-      
+      //byond idnin serverda kaç saati var onu sorguluyor
     } if ((message.content.startsWith(prefix + 'kac'))) {
       if (message.author.bot) return;
       var json = JSON.parse(fs.readFileSync("C:/lastg/data/playerMinutes.json", "utf-8"))
@@ -43,6 +44,7 @@ client.on('message', message => {
       message.reply(SayMessage + " Adlı kişinin oynama süresi: "+b.toString()+ " Saat " + c.toString() + " Dakika");
       }
     }
+    //top20 yi veriyor saat sıralamasında
     if ((message.content.startsWith(prefix + 'saat'))) {
       if (message.author.bot) return;
 
@@ -69,7 +71,7 @@ client.on('message', message => {
 
     }
 });
-
+//rastgele tip atıyor
 function tipler(){
   fs.readFile('C:/Users/Administrator/Desktop/dcbot/tipler.txt', function(err, data) {
       if(err) throw err;
