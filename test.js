@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
-var http = require('http');
-var fs = require('fs');
+const http = require('http');
+const fs = require('fs');
 const { parse } = require("path");
 
 const client = new Discord.Client({
