@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
-var http = require('http');
-var fs = require('fs');
-var kisisayisi
+const http = require('http');
+const fs = require('fs');
+const kisisayisi
 let urlci
 
 var http = require('http');
