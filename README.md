@@ -26,6 +26,8 @@ yazmanız gerekmektedir. Kurulum yapılan dosyaya githubda ki dosyaları atıp �
 
 -Tip komudu ile tip ekleyip discord üzerinden her saat mevcut tiplerden rastgele birini chate yazıyor.
 
+-Çökme durumlarında kendini yeniden başlatıyor.
+
 
 # Komutlar
 !say !wl !saat !kac !poly !tip
