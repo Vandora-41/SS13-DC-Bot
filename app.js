@@ -58,7 +58,7 @@ function poly(){
    
  });
 }
-setInterval(poly, 600000);
+setInterval(poly, 1200000);
 var prefix ="!";
 
 
