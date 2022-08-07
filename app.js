@@ -107,7 +107,7 @@ if ((message.content.startsWith(prefix + 'saat'))) {
     for (let index = 0; index <20; index++) {
 		var i = index +1;
 		
-		if(i <2){
+		if(i <2){ //sebebi 1. yi hep null olarak alması böyle bir çözüm ürettim
 			var says =says+"1."+" "+top10[index] + "\n";
 		}else{
 
