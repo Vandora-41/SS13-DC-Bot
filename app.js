@@ -192,13 +192,7 @@ client.on("ready", async () => {
    }
    setInterval(tipler,3600000);
   
-   http.createServer(function (req, res) {           //Oyuncu sayısını çekiyor.
-  
-  console.log(req)
-   
-   res.end();
-  }).listen(5466);
-  
+
 
 
 client.login("keyhere");
