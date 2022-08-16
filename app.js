@@ -75,7 +75,7 @@ client.on('message', message => {
 if ((message.content.startsWith(prefix + 'tip')&& message.author.id ==`140168024433885184`) ||(message.content.startsWith(prefix + 'tip')&& message.author.id ==`272434960814571520`)||(message.content.startsWith(prefix + 'tip')&& message.author.id ==`289873346504556544`)) {
     if (message.author.bot) return;
     const SayMessage = message.content.slice(4).trim();
-    fs.writeFile('C:/Users/Administrator/Desktop/dcbot', SayMessage+"\n", {flag: 'a+'}, (err) => {  //tip ekleme
+    fs.writeFile('C:/Users/Administrator/Desktop/dcbot/tipler.txt', SayMessage+"\n", {flag: 'a+'}, (err) => {  //tip ekleme
       if (err) {
           throw err;
       }
