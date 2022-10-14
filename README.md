@@ -31,4 +31,5 @@ yazmanız gerekmektedir. Kurulum yapılan dosyaya githubda ki dosyaları atıp �
 
 # Komutlar
 !say !wl !saat !kac !poly !tip
-
+# Uyarı
+Botun açtığı portları güvenlik duvarından kapatmanız gerekmektedir aksi taktirde başkaları o portlar üzerinden botu kullanabilir.
